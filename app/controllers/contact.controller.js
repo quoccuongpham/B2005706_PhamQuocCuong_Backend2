@@ -2,7 +2,7 @@ exports.create = (req, res) => {
     res.send({message: "create handler"});
 };
 
-exports.findAll = (req, res) => {
+exports.findAll = (req, res, next) => {
     res.send({message: "findAll handler"});
 };
 
